@@ -131,15 +131,16 @@ button:hover {
   height: 4.8px;
   display: inline-block;
   position: relative;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(46, 15, 15, 0.15);
   overflow: hidden;
 }
 .loader::after {
   content: '';
   box-sizing: border-box;
+  border-radius: 5%;
   width: 0;
   height: 4.8px;
-  background: #02155a;
+  background: #ffffff;
   position: absolute;
   top: 0;
   left: 0;

@@ -53,7 +53,7 @@ function getImg(imgEl) {
     const BASE_URL = 'https://pixabay.com/api/';
     
     const PARAMS = new URLSearchParams({
-        key: '42120259-494341598d0c2875f9db82d6d',
+        key: '42435331-5518aafb74583ec5494003d9b',
         q: imgEl,
         image_type: 'photo',
         orientation: 'horizontal',
@@ -65,7 +65,7 @@ function getImg(imgEl) {
     
     const options = {
         headers: {
-            API_KEY: '42120259-494341598d0c2875f9db82d6d',
+            API_KEY: '42435331-5518aafb74583ec5494003d9b',
         },
     };
 
